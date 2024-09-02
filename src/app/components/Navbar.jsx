@@ -8,19 +8,20 @@ import MenuOverlay from "./MenuOverlay";
 const navLinks = [
   {
     title: "About Me",
-    path: "#about-me",
+    path: "about-me",
+    colorClass: "bg-red-500 hover:bg-red-600"
   },
   {
     title: "Experience",
     path: "experience",
   },
   {
-    title: "Projects",
+    title: "Projects", 
     path: "projects",
   },
   {
     title: "Contact",
-    path: "contact",
+    path: "contact-me",
   },
 ];
 

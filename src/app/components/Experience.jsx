@@ -10,6 +10,7 @@ const TabData = [
             <div>
                 <div className="mb-4">
                     <h3 className="text-2xl font-semibold mb-2">Evident Scientific</h3>
+                    <h3 className=" text-gray-400 text-medium font-normal mb-2 font-style: italic">January-June 2024</h3>
                     <p className="text-base">During my six-month co-op at Evident Scientific in the spring of 2024, I had the chance to significantly enhance the reliability and 
                     performance of transducers used by the U.S. Military. I designed a LabView-based test system that improved testing efficiency by 30% and reduced manual testing 
                     time by 50%, while also streamlining the process for test technicians through automated screenshot capture and template population. This role allowed me to significantly 
@@ -29,6 +30,7 @@ const TabData = [
             <div>
                 <div className="mb-10">
                     <h3 className="text-2xl font-semibold mb-2">Northeastern Resident Assistant</h3>
+                    <h3 className="text-gray-400 text-medium font-normal mb-2 font-style: italic">August 2023-Present</h3>
                     <p className="text-base">As a Resident Assistant, I oversee a community of more than 80 residents, 
                     organize five engaging events each semester, and collaborate with a team of 30 RAs to create an inclusive 
                     and supportive environment. My role involves addressing resident concerns and facilitating problem resolution,
@@ -37,6 +39,7 @@ const TabData = [
                 </div>
                 <div className="mb-10">
                     <h3 className="text-2xl font-semibold mb-2">Waitress</h3>
+                    <h3 className="text-gray-400 text-medium font-normal mb-2 font-style: italic">August 2020-August 2022</h3>
                     <p className="text-base">As a Waitress, I developed strong customer service skills, 
                     managed multiple tables efficiently, and resolved customer issues promptly. This experience 
                     honed my ability to handle high-pressure situations and multitask effectively, skills that are 
@@ -59,10 +62,14 @@ const Experience = () => {
     };
 
     return (
-        <section className="text-white flex items-center justify-center min-h-screen" style={{ marginTop: '0.125rem' }}>
-            <div className="w-full max-w-4xl p-4 md:p-8">
+        <section id="experience" className="text-white flex items-center justify-center min-h-screen py-20 md:py-12" style={{ marginTop: '0.001rem' }}>
+            <div className="w-full max-w-4xl p-4 md:p-4">
                 <div className="text-center">
-                    <h2 className="text-4xl font-bold mb-4">My Experience</h2>
+                    <h2 className="text-4xl font-bold mb-4">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-purple-500">
+                            My Experience
+                        </span>
+                    </h2>
                     <div className="flex justify-center mb-8">
                         <TabButton
                             selectTab={() => handleTabChange("technical experience")}

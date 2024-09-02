@@ -37,8 +37,10 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            A third-year Computer Engineering major at Northeastern University on the Boston campus, pursuing a path in Software Engineering.
+          <p className="text-[#C7C2D0] text-base sm:text-lg mb-6 lg:text-xl">
+          I am actively seeking a co-op starting in January 2025, with a focus on 
+          opportunities in software engineering, front-end development, web development,
+           UX/UI design, and AI interfaces.
           </p>
           <div>
             <button 
@@ -56,12 +58,12 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-5 flex place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#C7C2D0] w-[300px] h-[300px] lg:w-[300px] lg:h-[300px] flex justify-center items-center overflow-hidden">
+          <div className="rounded-full bg-[#C7C2D0] w-[400px] h-[400px] lg:w-[400px] lg:h-[400px] flex justify-center items-center overflow-hidden">
             <Image 
               src="/images/ai-image1.png"
               alt="AI Image"
-              width={300}
-              height={300}
+              width={350}
+              height={350}
             />
           </div>
         </div>

@@ -1,11 +1,14 @@
-// ContactMe.jsx
 "use client";
 import React from "react";
 
 const ContactMe = () => {
     return (
         <section id="contact-me" className="text-gray-300 py-8 flex flex-col items-center mt-20">
-            <h2 className="text-4xl font-bold mb-4">Let's Connect</h2>
+            <h2 className="text-4xl font-bold mb-4">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-purple-400">
+                    Let's Connect
+                </span>
+            </h2>
             <ul className="text-lg">
                 <li className="mb-2">
                     <a href="mailto:barume.r@northeastern.edu" className="text-gray-400 hover:underline">
