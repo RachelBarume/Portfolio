@@ -33,9 +33,9 @@ const TabData = [
         id: "education",
         content: (
             <ul className="list-disc pl-2">
+                <li>Computer Engineering, B.S. | Northeastern University</li>
+                <li>American College of Thessaloniki | Thessaloniki, Greece</li>
                 <li>Doherty Memorial High School</li>
-                <li>Northeastern University</li>
-                <li>ACT, Thessaloniki, Greece</li>
             </ul>
         )
     },
