@@ -11,7 +11,6 @@ const TabData = [
             <div className="grid md:grid-cols-2 gap-8">
                 <ul className="list-disc pl-4">
                     <li>Python</li>
-                    <li>Java</li>
                     <li>JavaScript</li>
                     <li>C++</li>
                     <li>HTML/CSS</li>

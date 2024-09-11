@@ -45,7 +45,7 @@ const HeroSection = () => {
           <div>
             <button 
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-white via-blue-400 to-purple-700 hover:bg-slate-200 text-white"
-              onClick={() => window.open('https://drive.google.com/file/d/1jPByigDttiHBDN2DL11vuD6Z6bUnwazp/view?usp=sharing', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/12Y_jhcLB-ldaC721uq9jCJM1Stz2iSuD/view?usp=sharing', '_blank')}
             >
               <span className="block bg-[#121212} hover:bg-slate-800 rounded-full px-5 py-2"> Access Resume </span>
             </button>
