@@ -12,7 +12,7 @@ const projectData = [
     {
         id: 6,
         title: "AI Book Reccomender",
-        language: "In-Progress...",
+        language: "Python, JavaScript, HTML, CSS",
         description: "The AI-powered book recommender provides personalized reading recommendations based on individual user preferences. Utilizing an extensive book database, the platform delivers tailored suggestions to assist users in discovering new titles.",
         image: "images/projects/pj-image6.jpg",
     },
