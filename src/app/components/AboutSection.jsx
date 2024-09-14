@@ -15,14 +15,15 @@ const TabData = [
                     <li>C++</li>
                     <li>HTML/CSS</li>
                     <li>LabView</li>
+                    <li>MATLAB</li>
                 </ul>
                 <ul className="list-disc pl-1">
                     <li>Git</li>
                     <li>React</li>
                     <li>Node.js</li>
-                    <li>SQL</li>
                     <li>Tailwind CSS</li>
                     <li>VS Code</li>
+                    <li>SSMS</li>
                 </ul>
             </div>
         )
@@ -67,7 +68,7 @@ const AboutSection = () => {
     return (
         <section id="about-me" className="text-white py-20 md:py-50">
             <div className="md:grid md:grid-cols-2 gap-8 items-start py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-                <div className="sticky top-8 mt-10">
+                <div className="top-8 mt-10">
                     <Image src="/images/ai-image2.png" width={1500} height={1500} />
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col">

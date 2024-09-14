@@ -13,7 +13,7 @@ const projectData = [
         id: 6,
         title: "AI Book Reccomender",
         language: "In-Progress...",
-        description: "The AI-powered book recommender website provides personalized reading recommendations based on individual user preferences and previous selections. Utilizing an extensive book database, the platform delivers tailored suggestions to assist users in discovering new titles. With an intuitive interface and sophisticated algorithms, the service enhances the book discovery process for its users.",
+        description: "The AI-powered book recommender provides personalized reading recommendations based on individual user preferences. Utilizing an extensive book database, the platform delivers tailored suggestions to assist users in discovering new titles.",
         image: "images/projects/pj-image6.jpg",
     },
     {
