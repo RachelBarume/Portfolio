@@ -12,7 +12,8 @@ const TabData = [
                 <ul className="list-disc pl-4">
                     <li>Python</li>
                     <li>JavaScript</li>
-                    <li>C++</li>
+                    <li>Java</li>
+                    <li>C#/C++</li>
                     <li>HTML/CSS</li>
                     <li>LabView</li>
                     <li>MATLAB</li>
@@ -21,9 +22,9 @@ const TabData = [
                     <li>Git</li>
                     <li>React</li>
                     <li>Node.js</li>
-                    <li>Tailwind CSS</li>
-                    <li>VS Code</li>
-                    <li>SSMS</li>
+                    <li>Linux</li>
+                    <li>SQL</li>
+                    <li>GitHub</li>
                 </ul>
             </div>
         )
@@ -78,8 +79,11 @@ const AboutSection = () => {
                         </span>
                     </h2>
                     <p className="text-base lg:text-lg mb-8">
-                        I am a third-year Computer Engineering student pursuing a path in technology.
-                        I have six months of full-time work experience as a LabView Developer, along with numerous project experiences.
+                    I'm a third-year Computer Engineering student passionate about building innovative software solutions. Beyond coding, you’ll find me diving 
+                    into a new book or exploring new places whenever I get the chance. As a first-generation student, I thrive on challenges—balancing a full course load, 
+                    working, contributing to research, and staying involved in campus life, all while making time for my big (and very lively) family. I love staying busy, 
+                    constantly learning, and pushing myself to grow in every aspect of life. Whether it’s tackling a tough coding problem or planning my next adventure, 
+                    I’m always ready for what’s next.
                     </p>
                     <div className="flex flex-row mb-8">
                         <TabButton
