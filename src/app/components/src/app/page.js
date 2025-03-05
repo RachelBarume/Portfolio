@@ -1,11 +1,11 @@
-
-import HeroSection from "../app/components/HeroSection";
-import Navbar from "../app/components/Navbar";
-import AboutSection from "../app/components/AboutSection";
-import Experience from "../app/components/Experience";
-import ProjectSection from "../app/components/ProjectSection";
-import ContactMe from "../app/components/Contact";
+import HeroSection from "@/app/components/HeroSection";
+import Navbar from "@/app/components/Navbar";
 import Image from "next/image";
+import AboutSection from "@/app/components/AboutSection";
+import Experience from "@/app/components/Experience";
+import ProjectSection from "@/app/components/ProjectSection";
+import ContactMe from "@/app/components/Contact";
+
 
 
 export default function Home() {
