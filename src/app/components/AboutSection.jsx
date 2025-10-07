@@ -82,12 +82,11 @@ const AboutSection = () => {
                         </span>
                     </h2>
                     <p className="text-base lg:text-lg mb-8">
-                    I'm a Computer Engineering student at Northeastern University with over a year of hands-on technical experience 
-                    building scalable software solutions. I specialize in full-stack development, working with modern technologies 
-                    like React, Node.js, and Python to create applications that solve real-world problems. My experience spans 
-                    from developing user-facing applications to implementing robust backend systems, and I bring a results-driven 
-                    approach to every project. I'm actively seeking opportunities to contribute my technical expertise and 
-                    collaborative mindset to innovative engineering teams.
+                    I have over a year of hands-on technical experience building scalable software solutions. I specialize in 
+                    full-stack development, working with modern technologies like React, Node.js, and Python to create applications 
+                    that solve real-world problems. My experience spans from developing user-facing applications to implementing 
+                    robust backend systems, and I bring a results-driven approach to every project. I'm actively seeking 
+                    opportunities to contribute my technical expertise and collaborative mindset to innovative engineering teams.
                     </p>
                     <div className="flex flex-row mb-8">
                         <TabButton

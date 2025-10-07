@@ -5,13 +5,13 @@ import TabButton from "./TabButton";
 const TabData = [
     {
         title: "Engineering Experience",
-        id: "technical experience",
+        id: "engineering experience",
         content: (
         <><div>
                 <div className="mb-4">
-                    <h3 className="text-2xl font-semibold mb-2">Amazon</h3>
-                    <h3 className=" text-gray-400 text-medium font-normal mb-2 font-style: semibold">Software Developer Co-op</h3>
-                    <h3 className=" text-gray-400 text-medium font-normal mb-2 font-style: italic">January-June 2025 Expected </h3>
+                    <h3 className="text-2xl font-semibold mb-2">Amazon Robotics</h3>
+                    <h3 className=" text-white text-medium font-normal mb-2 font-style: semibold">Software Developer Co-op</h3>
+                    <h3 className=" text-gray-400 text-medium font-normal mb-2 font-style: italic">January-June 2025 </h3>
                     <p className="text-base">As a Software Development Engineer Co-op at Amazon Robotics, I lead the development of a new delivery workflow interface for in-vehicle systems, 
                         building seamless frontend experiences with JavaScript and React while architecting robust Kotlin backend solutions. I designed intelligent condition-based triggers 
                         that dynamically optimize the delivery experience, reducing package location time and improving operational efficiency. My work involves real-time system integration 
@@ -22,6 +22,7 @@ const TabData = [
             </div><div>
                     <div className="mb-4">
                         <h3 className="text-2xl font-semibold mb-2">Evident Scientific</h3>
+                        <h3 className=" text-white text-medium font-normal mb-2 font-style: semibold">LabVIEW Developer Co-op</h3>
                         <h3 className=" text-gray-400 text-medium font-normal mb-2 font-style: italic">January-June 2024</h3>
                         <p className="text-base">During my six-month co-op at Evident Scientific in the spring of 2024, I had the chance to significantly enhance the reliability and
                             performance of transducers used by the U.S. Military. I designed a LabView-based test system that improved testing efficiency by 30% and reduced manual testing
@@ -31,7 +32,7 @@ const TabData = [
                             data, I achieved a 15% reduction in failure rates and collaborated on Engineer Change Notices (ECNs), resulting a significant reduction in pre-shipment product failures and
                             customer complaints.</p>
                     </div>
-                    {/* Add more technical experiences here */}
+                    {/* Add more engineering experiences here */}
                 </div></>
         )
     },
@@ -41,9 +42,9 @@ const TabData = [
         content: (
             <div>
                  <div className="mb-10">
-                    <h3 className="text-2xl font-semibold mb-2">The Intersect of Neuroscience, Engineering, and Autism Research</h3>
+                    <h3 className="text-2xl font-semibold mb-2">Robotics and Intelligent Vehicles Research Laboratory (RIVeR Lab)h</h3>
                     <h3 className="text-gray-400 text-medium font-normal mb-2 font-style: italic">September 2025-Present</h3>
-                    <p className="text-base">As an Undergraduate Research Assistant at the Robotics and Intelligent Vehicles Research Laboratory (RIVeR Lab), I collaborate with PhD students to advance 
+                    <p className="text-base">As an Undergraduate Research Assistant at the RIVeR Lab, I collaborate with PhD students to advance 
                     cutting-edge research in autonomous vehicles and multi-agent systems. I'm currently contributing to the development of a cognitive control methods that track human cognitive load through stress and heart 
                     rate monitoring, enabling systems to dynamically adjust based on real-time physiological feedback. This work involves developing software solutions and gaining hands-on experience 
                     with AI-driven perception, control, and simulation technologies. Working on human-AI interaction at this level has taught me how to design systems that adapt to human needs and 
@@ -62,7 +63,7 @@ const TabData = [
     },
     {
         title: "Service & Leadership Experience",
-        id: "work experience",
+        id: "service & leadership experience",
         content: (
             <div>
                 <div className="mb-10">
@@ -92,14 +93,14 @@ const TabData = [
                     honed my ability to handle high-pressure situations and multitask effectively, skills that are 
                     valuable in any technical role where problem-solving is key.</p>
                 </div>
-                {/* Add more work experiences here */}
+                {/* Add more service & leadership experiences here */}
             </div>
         )
     },
 ];
 
 const Experience = () => {
-    const [tab, setTab] = useState("technical experience");
+    const [tab, setTab] = useState("engineering experience");
     const [isPending, startTransition] = useTransition();
 
     const handleTabChange = (id) => {
@@ -117,12 +118,12 @@ const Experience = () => {
                             My Experience
                         </span>
                     </h2>
-                    <div className="flex justify-center mb-8">
+                    <div className="flex justify-center mb-8 gap-6">
                         <TabButton
-                            selectTab={() => handleTabChange("technical experience")}
-                            active={tab === "technical experience"}
+                            selectTab={() => handleTabChange("engineering experience")}
+                            active={tab === "engineering experience"}
                         >
-                            Technical Experience
+                            Engineering Experience
                         </TabButton>
                         <TabButton
                             selectTab={() => handleTabChange("research experience")}
@@ -131,10 +132,10 @@ const Experience = () => {
                             Undergrad Research Experience
                         </TabButton>
                         <TabButton
-                            selectTab={() => handleTabChange("work experience")}
-                            active={tab === "work experience"}
+                            selectTab={() => handleTabChange("service & leadership experience")}
+                            active={tab === "service & leadership experience"}
                         >
-                            Work Experience
+                            Service & Leadership Experience
                         </TabButton>
                     </div>
                     <div className="text-left">
