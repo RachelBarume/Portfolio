@@ -11,20 +11,23 @@ const TabData = [
             <div className="grid md:grid-cols-2 gap-8">
                 <ul className="list-disc pl-4">
                     <li>Python</li>
-                    <li>JavaScript</li>
                     <li>Java</li>
-                    <li>C#/C++</li>
-                    <li>HTML/CSS</li>
-                    <li>LabView</li>
+                    <li>JavaScript</li>
+                    <li>Kotlin</li>
+                    <li>SQL</li>
+                    <li>C++/C</li>
                     <li>MATLAB</li>
+                    <li>LabView</li>
                 </ul>
                 <ul className="list-disc pl-1">
                     <li>Git</li>
                     <li>React</li>
                     <li>Node.js</li>
-                    <li>Linux</li>
-                    <li>SQL</li>
-                    <li>GitHub</li>
+                    <li>AWS</li>
+                    <li>Docker</li>
+                    <li>ROS 2</li>
+                    <li>Figma</li>
+                    <li>Unity</li>
                 </ul>
             </div>
         )
@@ -45,12 +48,12 @@ const TabData = [
         id: "relevant courses",
         content: (
             <ul className="list-disc pl-2">
+                <li>Fundamentals of Algorithms</li>
                 <li>Computing Fundamentals for Engineers</li>
                 <li>Embedded Design: Enabling Robotics</li>
                 <li>Fundamentals of Networks</li>
-                <li>Circuits and Signals</li>
+                <li>Probability and Statistics</li>
                 <li>Physics II</li>
-                <li>Professional Issues in Engineering</li>
             </ul>
         )
     }
@@ -79,11 +82,12 @@ const AboutSection = () => {
                         </span>
                     </h2>
                     <p className="text-base lg:text-lg mb-8">
-                    I'm a third-year Computer Engineering student passionate about building innovative software solutions. Beyond coding, you’ll find me diving 
-                    into a new book or exploring new places whenever I get the chance. As a first-generation student, I thrive on challenges—balancing a full course load, 
-                    working, contributing to research, and staying involved in campus life, all while making time for my big (and very lively) family. I love staying busy, 
-                    constantly learning, and pushing myself to grow in every aspect of life. Whether it’s tackling a tough coding problem or planning my next adventure, 
-                    I’m always ready for what’s next.
+                    I'm a Computer Engineering student at Northeastern University with over a year of hands-on technical experience 
+                    building scalable software solutions. I specialize in full-stack development, working with modern technologies 
+                    like React, Node.js, and Python to create applications that solve real-world problems. My experience spans 
+                    from developing user-facing applications to implementing robust backend systems, and I bring a results-driven 
+                    approach to every project. I'm actively seeking opportunities to contribute my technical expertise and 
+                    collaborative mindset to innovative engineering teams.
                     </p>
                     <div className="flex flex-row mb-8">
                         <TabButton

@@ -10,14 +10,15 @@ const TabData = [
         <><div>
                 <div className="mb-4">
                     <h3 className="text-2xl font-semibold mb-2">Amazon</h3>
+                    <h3 className=" text-gray-400 text-medium font-normal mb-2 font-style: semibold">Software Developer Co-op</h3>
                     <h3 className=" text-gray-400 text-medium font-normal mb-2 font-style: italic">January-June 2025 Expected </h3>
-                    <p className="text-base">As a Software Development Engineer Co-op at Amazon Robotics, I am developing a React-based front-end UI for new delivery vans, improving navigation and package
-                    identification for Delivery Associates by integrating visual identifiers and Figma mockups. Additionally, I collaborate with a cross-functional team to advance an AR/VR environment using
-                    C# and Unity, creating interactive 3D simulations that replicate real-world workspaces for system design and training. My contributions also include working closely with engineers to 
-                    deliver project milestones and executive-level demos for Amazon leadership.
-</p>
+                    <p className="text-base">As a Software Development Engineer Co-op at Amazon Robotics, I lead the development of a new delivery workflow interface for in-vehicle systems, 
+                        building seamless frontend experiences with JavaScript and React while architecting robust Kotlin backend solutions. I designed intelligent condition-based triggers 
+                        that dynamically optimize the delivery experience, reducing package location time and improving operational efficiency. My work involves real-time system integration 
+                        and collaboration with cross-functional teams to deliver critical milestones. What I love most about this role is seeing how my code directly impacts real-world operations, 
+                        and working alongside experienced engineers has taught me the value of thorough testing and the importance of building systems that can scale with Amazon's massive operations.
+                        </p>
                 </div>
-                {/* Add more technical experiences here */}
             </div><div>
                     <div className="mb-4">
                         <h3 className="text-2xl font-semibold mb-2">Evident Scientific</h3>
@@ -39,9 +40,18 @@ const TabData = [
         id: "research experience",
         content: (
             <div>
+                 <div className="mb-10">
+                    <h3 className="text-2xl font-semibold mb-2">The Intersect of Neuroscience, Engineering, and Autism Research</h3>
+                    <h3 className="text-gray-400 text-medium font-normal mb-2 font-style: italic">September 2025-Present</h3>
+                    <p className="text-base">As an Undergraduate Research Assistant at the Robotics and Intelligent Vehicles Research Laboratory (RIVeR Lab), I collaborate with PhD students to advance 
+                    cutting-edge research in autonomous vehicles and multi-agent systems. I'm currently contributing to the development of a cognitive control methods that track human cognitive load through stress and heart 
+                    rate monitoring, enabling systems to dynamically adjust based on real-time physiological feedback. This work involves developing software solutions and gaining hands-on experience 
+                    with AI-driven perception, control, and simulation technologies. Working on human-AI interaction at this level has taught me how to design systems that adapt to human needs and 
+                    taught me the importance of considering human factors in autonomous system design.</p>
+                </div>
                 <div className="mb-10">
                     <h3 className="text-2xl font-semibold mb-2">The Intersect of Neuroscience, Engineering, and Autism Research</h3>
-                    <h3 className="text-gray-400 text-medium font-normal mb-2 font-style: italic">September 2024-Present</h3>
+                    <h3 className="text-gray-400 text-medium font-normal mb-2 font-style: italic">September 2024-January 2025</h3>
                     <p className="text-base">The research lab at Northeastern University focuses on enhancing communication accessibility for individuals with autism by leveraging machine learning and
                     multimodal data analysis. Through contributions to ROSCO (Rapid Online Sample of Communication), the lab develops AI-driven frameworks that analyze video and audio recordings to decode
                     communication patterns. A key focus is exploring how movements and gestures can be transformed into an interpretable language, fostering more inclusive communication pathways between 
@@ -51,7 +61,7 @@ const TabData = [
         )
     },
     {
-        title: "Work Experience",
+        title: "Service & Leadership Experience",
         id: "work experience",
         content: (
             <div>
@@ -61,8 +71,18 @@ const TabData = [
                     <p className="text-base">As a Resident Assistant, I oversee a community of more than 80 residents, 
                     organize five engaging events each semester, and collaborate with a team of 30 RAs to create an inclusive 
                     and supportive environment. My role involves addressing resident concerns and facilitating problem resolution,
-                     which has strengthened my leadership, organizational, and problem-solving abilities. These skills are highly 
-                     transferable to technical roles, where effective project management, team collaboration, and troubleshooting are essential.</p>
+                    which has strengthened my leadership, organizational, and problem-solving abilities. These skills are highly 
+                    transferable to technical roles, where effective project management, team collaboration, and troubleshooting are essential.</p>
+                </div>
+                <div className="mb-10">
+                    <h3 className="text-2xl font-semibold mb-2"> NSBE Academic Excellence Chair</h3>
+                    <h3 className="text-gray-400 text-medium font-normal mb-2 font-style: italic">August 2023-May 2024</h3>
+                    <p className="text-base">As Academic Excellence Chair for my university's National Society of Black Engineers (NSBE) chapter, 
+                    I created and implemented a comprehensive mentorship program to connect members while maintaining an academic resource 
+                    repository accessible to over 800 individuals. My leadership resulted in a 25% improvement in academic performance among 
+                    program participants, demonstrating my ability to develop initiatives that create meaningful impact within large communities. 
+                    This role taught me the importance of building supportive networks and how to design programs that scale effectively to 
+                    serve diverse needs.</p>
                 </div>
                 <div className="mb-10">
                     <h3 className="text-2xl font-semibold mb-2">Waitress</h3>
