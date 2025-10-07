@@ -39,7 +39,7 @@ const HeroSection = () => {
           <p className="text-[#C7C2D0] text-base sm:text-lg mb-6 lg:text-xl">
           A senior at Northeastern University pursuing a degree in Computer Engineering, graduating in May 2026. 
           I'm currently seeking a full-time software engineering role where I can apply my technical experience, 
-          problem-solving mindset, and creativity to build reliable and impactful software solutions.
+          problem-solving mindset, and creativity to build reliable and impactful software solutions. Open to relocation.
           </p>
           <div>
             <button 
