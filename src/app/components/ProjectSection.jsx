@@ -6,8 +6,8 @@ const projectData = [
         id: 1,
         title: "AI Physical Therapy Tool",
         language: "Python, SQLite, BlazePose, React",
-        description: "Building an AI-powered physical therapy tool that provides users with real-time feedback from our BlazePose estimation model, enabling them to receive physical therapy at the comfort of their home for free. Leading backend development and data management, architecting a SQLite database to store pose estimation angles and user information, ensuring efficient data retrieval and analysis for personalized therapy sessions.",
-        image: "images/projects/pj-image5.png",
+        description: "Developed an AI-powered physical therapy tool for my senior capstone group project, providing real-time feedback through our BlazePose model for free at-home therapy. I led backend development and data management—designing a SQLite database for pose-estimation angles and user data—and also created the frontend UI/UX to deliver a smooth, engaging user experience.",
+        image: "images/projects/ptpalhomepage.png",
     },
     {
         id: 2,

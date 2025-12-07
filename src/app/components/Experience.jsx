@@ -11,24 +11,25 @@ const TabData = [
                 <div className="mb-4">
                     <h3 className="text-2xl font-semibold mb-2">Amazon Robotics | Software Developer Co-op</h3>
                     <h3 className="text-gray-400 text-medium font-normal mb-2 italic">January-June 2025 </h3>
-                    <p className="text-base">As a Software Development Engineer Co-op at Amazon Robotics, I lead the development of a new delivery workflow interface for in-vehicle systems, 
-                        building seamless frontend experiences with JavaScript and React while architecting robust Kotlin backend solutions. I designed intelligent condition-based triggers 
-                        that dynamically optimize the delivery experience, reducing package location time and improving operational efficiency. My work involves real-time system integration 
-                        and collaboration with cross-functional teams to deliver critical milestones. What I love most about this role is seeing how my code directly impacts real-world operations, 
-                        and working alongside experienced engineers has taught me the value of thorough testing and the importance of building systems that can scale with Amazon's massive operations.
+                    <p className="text-base">AAs a Software Development Engineer Co-op at Amazon Robotics, I led the development of a new delivery workflow 
+                        interface for in-vehicle systems—building seamless frontend experiences in JavaScript and React and architecting reliable backend 
+                        features in Kotlin. I designed condition-based triggers that optimized delivery flow, reducing package-location time and improving 
+                        efficiency. My work spanned real-time system integration and collaboration with cross-functional teams. What I valued most was seeing 
+                        my code directly impact real-world operations and learning from experienced engineers who shaped how I think about building thoughtful, 
+                        reliable systems.
                         </p>
                 </div>
             </div><div>
                     <div className="mb-4">
                         <h3 className="text-2xl font-semibold mb-2">Evident Scientific | LabVIEW Developer Co-op</h3>
                         <h3 className="text-gray-400 text-medium font-normal mb-2 italic">January-June 2024</h3>
-                        <p className="text-base">During my six-month co-op at Evident Scientific in the spring of 2024, I had the chance to significantly enhance the reliability and
-                            performance of transducers used by the U.S. Military. I designed a LabView-based test system that improved testing efficiency by 30% and reduced manual testing
-                            time by 50%, while also streamlining the process for test technicians through automated screenshot capture and template population. This role allowed me to significantly
-                            improve my coding skills and see my software interact with critical company devices like oscilloscopes and gauges. I also learned the importance of self-directed research
-                            in addressing unique challenges and adapted to tight deadlines, delivering projects within weeks rather than months. Leading cross-departmental meetings to analyze failure
-                            data, I achieved a 15% reduction in failure rates and collaborated on Engineer Change Notices (ECNs), resulting in a significant reduction in pre-shipment product failures and
-                            customer complaints.</p>
+                        <p className="text-base">During my six-month co-op at Evident Scientific, I improved the reliability of U.S. 
+                            Military–grade transducers by building a LabVIEW test system that increased efficiency and cut manual testing 
+                            time in half. I automated parts of the workflow to make testing smoother for technicians and developed software 
+                            that interacted directly with oscilloscopes, gauges, and other hardware. I also led failure-analysis meetings 
+                            that helped reduce failure rates by 15% and contributed to Engineering Change Notices that lowered pre-shipment 
+                            issues. This role pushed me to grow quickly—diving into unfamiliar tools, figuring things out independently, 
+                            and seeing the direct impact of my work on the devices our customers depended on.</p>
                     </div>
                     {/* Add more engineering experiences here */}
                 </div></>
@@ -83,14 +84,7 @@ const TabData = [
                     This role taught me the importance of building supportive networks and how to design programs that scale effectively to 
                     serve diverse needs.</p>
                 </div>
-                <div className="mb-10">
-                    <h3 className="text-2xl font-semibold mb-2">Waitress</h3>
-                    <h3 className="text-gray-400 text-medium font-normal mb-2 italic">August 2020-August 2022</h3>
-                    <p className="text-base">As a Waitress, I developed strong customer service skills, 
-                    managed multiple tables efficiently, and resolved customer issues promptly. This experience 
-                    honed my ability to handle high-pressure situations and multitask effectively, skills that are 
-                    valuable in any technical role where problem-solving is key.</p>
-                </div>
+                
                 {/* Add more service & leadership experiences here */}
             </div>
         )
